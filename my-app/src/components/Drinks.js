@@ -13,7 +13,7 @@ const Drinks = props => {
                             <img src={drinks.strDrinkThumb} alt={drinks.strDrink} />
                             <h2>{drinks.strDrink}</h2>
                             <h4><span className="how">Base Liquor</span>: {drinks.strIngredient1}</h4>
-                            <p><span className="how">How it's Made</span>: {drinks.strInstructions}</p>
+                            <p><span className="how">How To Make It</span>: {drinks.strInstructions}</p>
                         </div>)
             )}
         </>
